@@ -10,6 +10,9 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, welcome to the calculator program!");
+
+            Console.ReadKey();
         }
     }
 }
