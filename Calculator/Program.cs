@@ -53,6 +53,8 @@ namespace Calculator
 
             Console.WriteLine("The result is " + result);
 
+            Console.WriteLine("Thank you for using the calculator program!");
+
             Console.ReadKey();
         }
     }
