@@ -14,6 +14,8 @@ namespace Calculator
             int num1;
             int num2;
 
+            string answer;
+
             Console.WriteLine("Hello, welcome to the calculator program!");
             
             Console.WriteLine("Please enter the first number");
@@ -24,6 +26,8 @@ namespace Calculator
 
             Console.WriteLine("What type of operation would you like to do?");
             Console.WriteLine("Please enter A for addition, S for subtraction, M for multiplication or D for division");
+
+            answer = Console.ReadLine();
 
 
             Console.ReadKey();
