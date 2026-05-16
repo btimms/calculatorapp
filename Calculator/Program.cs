@@ -29,19 +29,19 @@ namespace Calculator
             Console.WriteLine("What type of operation would you like to do?");
             Console.WriteLine("Please enter A for addition, S for subtraction, M for multiplication or any other key for division");
 
-            answer = Console.ReadLine();
+            answer = Console.ReadLine().ToLower();
 
-            if (answer == "A")
+            if (answer == "a")
             {
                 result = num1 + num2;
             }
 
-            else if (answer == "S")
+            else if (answer == "s")
             {
                 result = num1 - num2;
             }
 
-            else if (answer == "M") 
+            else if (answer == "m") 
             {
                 result = num1 * num2;
             }
