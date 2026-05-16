@@ -51,6 +51,8 @@ namespace Calculator
                 result = num1 / num2;
             }
 
+            Console.WriteLine("The result is " + result);
+
             Console.ReadKey();
         }
     }
