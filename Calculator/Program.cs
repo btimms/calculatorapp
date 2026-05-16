@@ -22,6 +22,9 @@ namespace Calculator
             Console.WriteLine("Please enter the second number");
             num2 = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("What type of operation would you like to do?");
+            Console.WriteLine("Please enter A for addition, S for subtraction, M for multiplication or D for division");
+
 
             Console.ReadKey();
         }
