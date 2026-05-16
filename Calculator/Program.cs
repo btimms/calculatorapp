@@ -48,11 +48,19 @@ namespace Calculator
 
             else
             {
-                result = num1 / num2;
+                result = num2 ==0? float.NaN: num1 / num2;
             }
 
-            Console.WriteLine("The result is " + result);
+            if (float.IsNaN(result))
+            {
+                Console.WriteLine("Cannot divide by 0!");
+            }
 
+            else
+            {
+                Console.WriteLine("The result is " + result);
+            }
+           
             Console.WriteLine("Thank you for using the calculator program!");
 
             Console.ReadKey();
